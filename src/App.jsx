@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const WEBHOOK_URL = "METS_TON_WEBHOOK_ICI"; // ← à remplacer
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1494444022738190496/eZBQLRT3-6Knk7p-Qb9ZVeUIpsenHN3VQ1m7n-6iIUHe6nt7qRo2deVR_bgpQNLw5rfP"; // ← à remplacer
 
 const QUESTIONS = [
   { id: "age",        label: "Quel âge as-tu ?",                                                                          type: "short", placeholder: "Ex: 17 ans",              icon: "👤" },
